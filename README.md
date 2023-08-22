@@ -111,6 +111,7 @@ Run it in your local server
 
 ## 🔭 Future Features <a name="future-features">
 ** Add and Remove**
+** List the Todo list upon writing**
 ** Local storage implementation**
 </a>
 
