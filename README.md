@@ -6,7 +6,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Awesome Books\] ](#-awesome-books-)
+- [📖 \[TO-DO LIST\] ](#-to-do-list-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,11 +26,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [TO-DO LIST] <a name="about-project"></a>
 
 
 
-**[Webpack-Todolist]** is a simple website that displays a list of books and allows you to add and remove books from that list.
+**[TO-DO LIST]** is a simple website that displays TO-DO LIST and allows you to add and remove TO-DO LIST from that Content.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -47,7 +47,7 @@
 
 > The following are the key features of the application.
 
-- **[Add and Remove your favourite books]**
+- **[Add and Remove your TO-DO LIST]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] (http://localhost:8080/)
+- [Live Demo Link] (https://richie1988.github.io/WebpackTodolist.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +109,10 @@ Run it in your local server
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features">
+** Add and Remove**
+** Local storage implementation**
+</a>
 
 - Setting Up A Professional Github Repository.
 
