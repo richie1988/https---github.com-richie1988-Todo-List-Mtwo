@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./my-font.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(0, 100%, 99%);
+  margin: auto;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.list-container {
+  width: 600px;
+  height: auto;
+  border: 1px solid gray;
+  margin: 24px;
+  box-shadow: 0 0  12px grey;
+}
+
+.list-container h2 {
+  padding: 10px;
+}
+
+ul li {
+  list-style-type: none;
+  border: 1px solid grey;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.todo-list li {
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+ul li input {
+  margin: 0 10px;
+}
+
+.completed {
+  opacity: 50%;
+}
+
+.clear-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.add-button {
+  margin-left: 10px;
+  border: none;
+  color: rgb(43, 39, 39);
+  padding: 2px 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 14px;
+  float: right;
+}
