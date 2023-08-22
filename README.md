@@ -111,7 +111,6 @@ Run it in your local server
 
 ## 🔭 Future Features <a name="future-features">
 ** Add and Remove**
-** List the Todo list upon writing**
 ** Local storage implementation**
 </a>
 
@@ -144,7 +143,7 @@ If you like this project, give it a star .
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse Team and the founder of Microverse for the opportunity is giving the developers world of opportunity.
+I would like to thank the Microverse Team and the founder of Microverse for the opportunity is giving the developers around the world to archieve there dreams.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
