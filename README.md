@@ -1,5 +1,26 @@
  <a name="Webpack Todo-List"></a>
 
+<!-- TABLE OF CONTENTS -->
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[TO-DO LIST\] ](#-to-do-list-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 # 📖 [TO-DO LIST] <a name="about-project"></a>
 
 
@@ -19,15 +40,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Add and Remove your TO-DO LIST]**
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] (https://richie1988.github.io/WebpackTodolist.github.io/)
+- [Live Demo Link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,7 +71,6 @@ Clone this repository to your desired folder:git clone (https://github.com/richi
 ### Install
 Install this project with this command:
 `$ npm install`
-
 
 ### Usage
 
