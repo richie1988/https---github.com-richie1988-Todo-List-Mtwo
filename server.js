@@ -1,7 +1,5 @@
 const express = require('express');
-
 const webpack = require('webpack');
-
 const webpackDevMiddleware = require('webpack-dev-middleware');
 
 const app = express();
@@ -18,5 +16,5 @@ app.use(
 );
 
 // Serve the files on port 3000.
-app.listen(3000, () => { // Using an arrow function here
+app.listen(3000, () => {
 });
