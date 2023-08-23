@@ -81,11 +81,7 @@ ul li input {
 .add-button {
   margin-left: 10px;
   border: none;
-<<<<<<< HEAD
   color: rgb(65, 38, 38);
-=======
-  color: rgb(63, 59, 59);
->>>>>>> Webpack-Todolist
   padding: 2px 5px;
   cursor: pointer;
   border-radius: 50%;
