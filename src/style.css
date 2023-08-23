@@ -28,9 +28,9 @@ body {
 .list-container {
   width: 600px;
   height: auto;
-  border: 1px solid gray;
+  border: 1px solid rgb(63, 31, 31);
   margin: 24px;
-  box-shadow: 0 0  12px grey;
+  box-shadow: 0 0  12px rgb(95, 93, 93);
 }
 
 .list-container h2 {
@@ -68,7 +68,7 @@ ul li input {
 .add-button {
   margin-left: 10px;
   border: none;
-  color: rgb(43, 39, 39);
+  color: rgb(65, 38, 38);
   padding: 2px 5px;
   cursor: pointer;
   border-radius: 50%;
