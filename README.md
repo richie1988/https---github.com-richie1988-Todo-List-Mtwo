@@ -4,7 +4,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[TO-DO LIST\] ](#-to-do-list-)
+- [📖 \[Awesome Books\] ](#-awesome-books-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -21,7 +21,10 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
-# 📖 [TO-DO LIST] <a name="about-project"></a>
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Awesome Books] <a name="about-project"></a>
 
 
 
@@ -40,12 +43,15 @@
 
 ### Key Features <a name="key-features"></a>
 
+> The following are the key features of the application.
+
+- **[Add and Remove your favourite books]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]
+Coming Soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,8 +106,6 @@ Run it in your local server
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features">
-** Add and Remove**
-** Local storage implementation**
 </a>
 
 - Setting Up A Professional Github Repository.
@@ -132,7 +136,8 @@ If you like this project, give it a star .
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse Team and the founder of Microverse for the opportunity is giving the developers around the world to archieve there dreams.
+I would like to thank the Microverse Team and the founder of Microverse for the opportunity is giving the developers world of opportunity.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
