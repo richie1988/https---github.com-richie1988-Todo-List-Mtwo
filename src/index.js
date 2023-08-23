@@ -2,10 +2,9 @@ import './style.css';
 
 // Array of tasks
 const tasks = [
-  { description: 'Add to your list...', completed: true, index: 1 },
-  { description: 'Wash My clothes', completed: false, index: 2 },
-  { description: 'Complete The To-do task', completed: false, index: 3 },
-  { description: 'Get some sleep', completed: false, index: 4 },
+  { description: 'Wash My clothes', completed: false, index: 1 },
+  { description: 'Complete The To-do task', completed: false, index: 2 },
+  { description: 'Get some sleep', completed: false, index: 3 },
 ];
 
 function renderTasks() {
@@ -33,7 +32,7 @@ function renderTasks() {
 
     if (!task.completed) {
       const addButton = document.createElement('button');
-      addButton.textContent = '+';
+      addButton.textContent = '-';
       addButton.classList.add('add-button');
       taskItem.appendChild(addButton);
     }

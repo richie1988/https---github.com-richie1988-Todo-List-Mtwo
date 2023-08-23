@@ -37,6 +37,19 @@ body {
   padding: 10px;
 }
 
+.list-container h2 i {
+  float: right;
+  width: 5px;
+  margin: auto 20px;
+  font-size: 20px;
+}
+
+.add-todo {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
 ul li {
   list-style-type: none;
   border: 1px solid grey;

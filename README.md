@@ -6,7 +6,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Awesome Books\] ](#-awesome-books-)
+- [📖 \[TO-DO LIST\] ](#-to-do-list-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,11 +26,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [TO-DO LIST] <a name="about-project"></a>
 
 
 
-**[Webpack-Todolist]** is a simple website that displays a list of books and allows you to add and remove books from that list.
+**[TO-DO LIST]** is a simple website that displays TO-DO LIST and allows you to add and remove TO-DO LIST from that Content.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -47,7 +47,7 @@
 
 > The following are the key features of the application.
 
-- **[Add and Remove your favourite books]**
+- **[Add and Remove your TO-DO LIST]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] (http://localhost:8080/)
+- [Live Demo Link] (https://richie1988.github.io/WebpackTodolist.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 Navigate to the  directory where you  want to clone this project in your computer.
-Clone this repository to your desired folder:git clone (https://github.com/DevKaranJ/AwesomeBooks.git)
+Clone this repository to your desired folder:git clone (https://github.com/richie1988/WebpackTodolist.github.io.git)
 
 ### Install
 Install this project with this command:
@@ -90,6 +90,7 @@ To run the project, execute the following command by opening the vscode with the
 ### Run tests
 
 To run tests, run the following command:
+npm start
 
 Run it in your local server
 
@@ -109,7 +110,10 @@ Run it in your local server
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features">
+** Add and Remove**
+** Local storage implementation**
+</a>
 
 - Setting Up A Professional Github Repository.
 
@@ -128,7 +132,6 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, give it a star .
@@ -140,8 +143,7 @@ If you like this project, give it a star .
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse Team and the founder of Microverse for the opportunity is giving the developers world of opportunity.
-
+I would like to thank the Microverse Team and the founder of Microverse for the opportunity is giving the developers around the world to archieve there dreams.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
