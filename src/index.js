@@ -1,29 +1,35 @@
 import './style.css';
 
-// Array of tasks
-const tasks = [
-  { description: 'Wash My clothes', completed: false, index: 1 },
-  { description: 'Complete The To-do task', completed: false, index: 2 },
-  { description: 'Get some sleep', completed: false, index: 3 },
-];
+let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+
+function saveTasks() {
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+}
 
 function renderTasks() {
   const todoList = document.getElementById('todo-list');
 
-  tasks.sort((a, b) => a.index - b.index); // Sort tasks by index
+  tasks.sort((a, b) => a.index - b.index);
 
-  todoList.innerHTML = ''; // Clear existing list
+  todoList.innerHTML = '';
 
-  tasks.forEach((task) => {
+  tasks.forEach((task, index) => {
     const taskItem = document.createElement('li');
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.checked = task.completed;
 
+    checkbox.addEventListener('change', () => {
+      task.completed = checkbox.checked;
+      saveTasks();
+      renderTasks();
+    });
+
     taskItem.appendChild(checkbox);
 
     const descriptionSpan = document.createElement('span');
     descriptionSpan.textContent = task.description;
+
     if (task.completed) {
       descriptionSpan.classList.add('completed');
     }
@@ -31,15 +37,64 @@ function renderTasks() {
     taskItem.appendChild(descriptionSpan);
 
     if (!task.completed) {
-      const addButton = document.createElement('button');
-      addButton.textContent = '-';
-      addButton.classList.add('add-button');
-      taskItem.appendChild(addButton);
+      const deleteButton = document.createElement('button');
+      deleteButton.textContent = 'X';
+      deleteButton.classList.add('delete-button');
+
+      deleteButton.addEventListener('click', () => {
+        tasks.splice(index, 1);
+
+        tasks.forEach((task, idx) => {
+          task.index = idx + 1;
+        });
+
+        saveTasks();
+        renderTasks();
+      });
+
+      taskItem.appendChild(deleteButton);
     }
 
     todoList.appendChild(taskItem);
   });
+
+  saveTasks();
 }
 
-// Call the renderTasks function on page load
-window.addEventListener('DOMContentLoaded', renderTasks);
+function addTask(description) {
+  const newIndex = tasks.length + 1;
+
+  const newTask = {
+    description,
+    completed: false,
+    index: newIndex
+  };
+
+  tasks.push(newTask);
+  renderTasks();
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  renderTasks();
+
+  const addButton = document.querySelector('.add-btn');
+  const addInput = document.querySelector('.add-todo');
+
+  addButton.addEventListener('click', () => {
+    if (addInput.value.trim() !== '') {
+      addTask(addInput.value.trim());
+      addInput.value = '';
+    }
+  });
+
+  const clearButton = document.querySelector('.clear-btn');
+  clearButton.addEventListener('click', () => {
+    tasks = tasks.filter((task) => !task.completed);
+
+    tasks.forEach((task) => {
+      task.index += 1;
+    });
+
+    renderTasks();
+  });
+});
