@@ -1,4 +1,5 @@
 import './style.css';
+import clearCompletedTasks from './statusUtils.js';
 
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
@@ -44,8 +45,8 @@ function renderTasks() {
       deleteButton.addEventListener('click', () => {
         tasks.splice(index, 1);
 
-        tasks.forEach((task, idx) => {
-          task.index = idx + 1;
+        tasks.forEach((task, index) => {
+          task.index = index + 1;
         });
 
         saveTasks();
@@ -89,12 +90,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const clearButton = document.querySelector('.clear-btn');
   clearButton.addEventListener('click', () => {
-    tasks = tasks.filter((task) => !task.completed);
-
-    tasks.forEach((task) => {
-      task.index += 1;
-    });
-
+    tasks = clearCompletedTasks(tasks);
     renderTasks();
   });
 });
