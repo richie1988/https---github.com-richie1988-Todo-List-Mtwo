@@ -38,7 +38,6 @@
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 > The following are the key features of the application.
@@ -53,7 +52,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
