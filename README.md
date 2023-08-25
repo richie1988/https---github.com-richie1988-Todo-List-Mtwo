@@ -65,7 +65,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 Navigate to the  directory where you  want to clone this project in your computer.
-Clone this repository to your desired folder:git clone (https://github.com/richie1988/WebpackTodolist.github.io.git)
+Clone this repository to your desired folder:git clone
 
 ### Install
 Install this project with this command:
@@ -73,7 +73,7 @@ Install this project with this command:
 
 ### Usage
 
-To run the project, execute the following command by opening the vscode with the command `code .`
+To run the project, execute the following command by opening the vscode with the command
 
 ### Run tests
 
