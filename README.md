@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [TO-DO LIST] <a name="about-project"></a>
 
 
 **[TO-DO LIST]** is a simple website that displays TO-DO LIST and allows you to add and remove TO-DO LIST from that Content.
